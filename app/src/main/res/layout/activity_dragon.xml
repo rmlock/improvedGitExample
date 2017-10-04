@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:id="@+id/dracarys"
-        android:src="@drawable/Game-of-thrones-drogon-3"
+        android:src="@drawable/fireddragon"
         />
 
 </RelativeLayout>

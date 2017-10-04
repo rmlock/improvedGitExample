@@ -1,7 +1,9 @@
 package com.example.android.rlockermangitexample;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 public class GitExample extends AppCompatActivity {
 
@@ -10,4 +12,11 @@ public class GitExample extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_git_example);
     }
+
+    public void dragonTime(View view) {
+        Intent dragon = new Intent(GitExample.this, dragon.class);
+        startActivity(dragon);
+    }
+
 }
+
